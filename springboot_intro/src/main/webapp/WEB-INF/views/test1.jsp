@@ -1,37 +1,19 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ysng_ysng
-  Date: 2022/12/06
-  Time: 6:59 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-
-<%--<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>--%>
-<%-- 이전 test1 예제 --%>
-<%--<html>--%>
-<%--<head>--%>
-<%--    <title>Insert title here</title>--%>
-<%--</head>--%>
-<%--<body>--%>
-<%--<%--%>
-<%--    out.println("Hello World");--%>
-<%--%>--%>
-<%--</body>--%>
-<%--</html>--%>
-
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
 <%
-    out.println("Model : Hello World");
+    out.println("#01 : Hello World");
 %>
 <br>
+당신의 아이디는 ${id} 입니다.<br>
 당신의 이름은 ${name} 입니다.
-
+ 
 </body>
 </html>
