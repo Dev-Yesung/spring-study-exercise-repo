@@ -13,3 +13,4 @@
     - [x] 3장 lombok 사용까지 완료 (22.12.13)
     - [x] 3장 validator, validatorUtils 활용 (22.12.15)
     - [x] 3장 valid 어노테이션 사용까지 완료 -> 3장 끝 (22.12.17)
+    - [X] 4장 JdbcTemplate 사용하기 끝(22.12.18)
