@@ -1,0 +1,39 @@
+.section-title {
+  margin: 0;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-paragraph {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.move-button {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.move-button li {
+  background-color: rgb(57, 161, 184);
+  width: 9rem;
+  height: 9rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 3.7rem;
+}
+#section-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+#section-img img {
+  box-sizing: border-box;
+  width: 38rem;
+  height: 19rem;
+  object-fit: fill;
+}

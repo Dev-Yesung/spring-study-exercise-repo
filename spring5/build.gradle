@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'book'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.2.22.RELEASE'
+    implementation 'org.aspectj:aspectjweaver:1.9.6'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

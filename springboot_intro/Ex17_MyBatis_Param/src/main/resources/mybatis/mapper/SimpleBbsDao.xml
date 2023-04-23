@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.ex17_mybatis_param.dao.ISimpleBbsDao">
+  <select id="listDao" resultType="com.example.ex17_mybatis_param.dto.SimpleBbsDto">
+    select *
+    from simple_bbs
+    order by desc
+  </select>
+
+  <select id="viewDao" resultType="com.example.ex17_mybatis_param.dto.SimpleBbsDto">
+    select *
+    from simple_bbs
+    where id = #{0}
+  </select>
+
+  <insert id="writeDao">
+    insert into simple_bbs (id, writer, title, content)
+    values ((select * from (select max(seq) + 1 from simple_bbs) next), #{param1}, #{param2}, #{param3})
+  </insert>
+
+  <delete id="deleteDao">
+    delete
+    from simple_bbs
+    where id = #{_id}
+  </delete>
+</mapper>

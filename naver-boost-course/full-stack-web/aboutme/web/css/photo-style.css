@@ -1,0 +1,27 @@
+main {
+  text-align: left;
+}
+
+section {
+  display: flex;
+  padding: 4rem 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  width: 15rem;
+  object-fit: cover;
+  border: 0.5rem solid rgb(132, 132, 132);
+  margin-right: 5rem;
+}
+
+section div {
+  display: block;
+}
+
+#section-one {
+  border-bottom: 0.2rem solid rgb(132, 132, 132);
+}
